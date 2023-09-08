@@ -1,0 +1,65 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version "8.1.1"
+    id 'application'
+    id 'java'
+}
+
+shadowJar {
+    mergeServiceFiles()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(project.javaVersion)
+    }
+    withJavadocJar()
+}
+
+application {
+    mainClass = project.mainClass
+}
+
+run {
+    standardInput = System.in
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+//    apply plugin: 'idea'
+    implementation 'org.fusesource.jansi:jansi:2.4.0'
+
+    implementation 'org.jline:jline:3.23.0'
+
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    implementation fileTree(dir: 'libs', include: '*.jar')
+
+    testImplementation "org.junit.jupiter:junit-jupiter:$junit5Version"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junit5Version"
+    // To use JUnit4 instead of JUnit5, comment out the previous 2 lines and uncomment the following 2 lines.
+    // testImplementation "junit:junit:$junit4Version"
+    // testRuntimeOnly "org.junit.vintage:junit-vintage-engine:$junit5Version"
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+javadoc {
+    options {
+        links "https://docs.oracle.com/en/java/javase/$javaVersion/docs/api/"
+    }
+}
+
+assemble {
+    dependsOn shadowJar, javadocJar
+}
+
+project.tasks.withType(Jar).configureEach {
+    it.exclude('**/.keep')
+}

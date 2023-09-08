@@ -1,0 +1,18 @@
+-classpath 'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\build\\classes\\java\\main;C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\build\\resources\\main;C:\\Users\\james\\.gradle\\caches\\modules-2\\files-2.1\\org.fusesource.jansi\\jansi\\2.4.0\\321c614f85f1dea6bb08c1817c60d53b7f3552fd\\jansi-2.4.0.jar;C:\\Users\\james\\.gradle\\caches\\modules-2\\files-2.1\\org.jline\\jline\\3.23.0\\bac2dbcb918b9e205962ffeea03ae707ec3d30bb\\jline-3.23.0.jar;C:\\Users\\james\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.10.1\\b3add478d4382b78ea20b1671390a858002feb6c\\gson-2.10.1.jar'
+-d 'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\build\\docs\\javadoc'
+-doctitle 'matchgorithm 1.0.0-SNAPSHOT API'
+-link 'https://docs.oracle.com/en/java/javase/11/docs/api/'
+-notimestamp 
+-quiet 
+-windowtitle 'matchgorithm 1.0.0-SNAPSHOT API'
+'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\src\\main\\java\\com\\matchgorithm\\app\\AppInterface.java'
+'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\src\\main\\java\\com\\matchgorithm\\app\\main_menu\\MainMenuApp.java'
+'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\src\\main\\java\\com\\matchgorithm\\app\\MatchGorithmApp.java'
+'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\src\\main\\java\\com\\matchgorithm\\app\\match_list\\MatchList.java'
+'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\src\\main\\java\\com\\matchgorithm\\app\\match_list\\MatchListApp.java'
+'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\src\\main\\java\\com\\matchgorithm\\app\\swipe\\SwipeApp.java'
+'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\src\\main\\java\\com\\matchgorithm\\app\\UserInterfaceStatus.java'
+'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\src\\main\\java\\com\\matchgorithm\\client\\Main.java'
+'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\src\\main\\java\\com\\matchgorithm\\profile\\Picture.java'
+'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\src\\main\\java\\com\\matchgorithm\\profile\\Profile.java'
+'C:\\Users\\james\\Desktop\\TLG\\Java-Projects\\matchgorithm\\src\\main\\java\\com\\matchgorithm\\view\\Helper.java'
